@@ -9,7 +9,7 @@ import pandas as pd
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # ID de tu asistente en OpenAI (cámbialo por el real de GenAI-Prove)
-ASSISTANT_ID = "asst_xxxxxxxxxxxxx"
+ASSISTANT_ID = "asst_8nSd1AFlFqMriIEElXoi7Slf"
 
 # --- Funciones auxiliares ---
 def extract_text_from_pdf(uploaded_file):
